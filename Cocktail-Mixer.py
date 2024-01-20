@@ -42,7 +42,7 @@ frame1 = Frame(root, bg = '#89CFF0')
 frame1.place(relx=0.5, rely=0.1, anchor=CENTER)
 
 #message bar on top of textbox
-title = Label(frame1, text = "Search up your Favorite Cocktails!")
+title = Label(frame1, text = "Search up your Favorite Cocktails!", font=('Segoe UI', 20),bg=('#ffffff')) 
 title.grid(row = 0, columnspan=2)
 
 # creates and packs the entry widget
